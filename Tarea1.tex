@@ -154,7 +154,8 @@
 
                 % 14 -- J
 		\item ({\bf 0.25 puntos})
-		Un entero positivo no primo es un n\'umero compuesto.
+		  Un entero positivo no primo es un n\'umero compuesto.
+                 Esta afirmación es verdadera y viene de la definción de números compuesto y del teorema fundamental del algebra. Por lo que podemos demostrarlo de la misma manera.
 		
 		\item ({\bf 0.25 puntos})
 		Un entero positivo no compuesto es un n\'umero primo.
@@ -162,7 +163,7 @@
 		\item ({\bf 0.25 puntos})
 		Todo n\'umero primo es impar.
 
-                %17 -- J
+                %17 -- J -- PENDIENTE DE REVISAR
 		\item ({\bf 0.25 puntos})
 		 No hay primos mayores que un googolplex. \\
                  Esta afirmación no es verdadera, daremos por lo tanto un número primo mayor que un gogolplex.
@@ -316,8 +317,61 @@ Por lo tanto, para cualquier $n \in \mathbb{Z}$, $2^{4n} + 3n - 1$ es divisible 
 
                  %32 -- J
 	   	 \item ({\bf 0.5 puntos})  Demuestra que dados $a, b \in \mathbb{Z}-\{0\}$ 
-		se tiene que $\left( \frac{a}{(a,b)}, \frac{b}{(a,b)} \right ) = 1$.
+		   se tiene que $\left( \frac{a}{(a,b)}, \frac{b}{(a,b)} \right ) = 1$. \\
+                   Por lemas de clase sabemos que dados $a, b >0$: $(a,b) \geq 1$, y también que $(a, b) = (-a, -b) = (-a, b) = (a,-b) = ( \abs{a}, \abs{b})$. Tambien consideremos que por propiedad del valor absoluto $ \abs {\frac{a}{b}} = \frac{\abs{a}}{\abs{b}}$.
 
+                   Por lo anterior, vemos que:
+                  \begin{equation*}
+                    \begin{split}
+                      \left( \frac{a}{(a,b)}, \frac{b}{(a,b)} \right) &= \left(\abs{\frac{a}{(a,b)}},\abs{\frac{b}{(a,b)}}\right) \\
+                      &= \left( \frac{\abs {a} } { \abs {(a,b) } } ,\frac{\abs{b}}{\abs{(a,b)}} \right)   \\
+                      &= \left( \frac{\abs {a} } { (a,b)  } ,\frac{\abs{b}}{(a,b)} \right) \\
+                      &= \left( \frac{\abs {a} } { (\abs{a},\abs{b})  }, \frac{\abs{b}}{(\abs{a},\abs{b})} \right) \\
+                    \end{split}
+                  \end{equation*}
+
+                  Como  $a, b \in \mathbb{Z}-\{0\}$, entonces $a \neq 0$ y $b \neq 0$ y $\abs{a} \geq 1$ y $\abs{b} \geq 1$. Con esto por el Teorema Fundamental del Algebra se le puede dar una descomposición canónica de $ \abs{a}$ y $\abs{b}$ en factores primos, entonces veremos que podemos escribir: \\
+                  \[ \abs{a} = p_1^{\alpha_1} \cdots p_k^{\alpha_k} \]
+                  \[ \abs{b} = p_1^{\beta_1} \cdots p_k^{\beta_k} \]
+                  Donde $p_1, \dots ,p_k$ son números primos y $\alpha_i, \beta_i \geq 0$. \\
+
+                  Existe un teorema que nos garantiza que $(\abs{a},\abs{b}) = \prod_{i=1}^{k} p_i ^{\gamma_i} $ donde $\gamma_i =$ mín$\{\alpha_i, \beta_i\}$. \\
+                  Así, vemos que:
+                   \begin{equation*}
+                    \begin{split}
+                      \frac{\abs {a} } {(\abs{a},\abs{b})} &= \frac{ p_1^{\alpha_1} \cdots p_k^{\alpha_k} } {p_1^{\gamma_1} \cdots p_k^{\gamma_k}}\\
+                      &= p_1^{\alpha_1 - \gamma_1} \cdots p_k^{\alpha_1 - \gamma_1}
+                    \end{split}
+                  \end{equation*}
+                    \begin{equation*}
+                    \begin{split}
+                      \frac{\abs {b} } {(\abs{a},\abs{b})} &= \frac{ p_1^{\beta_1} \cdots p_k^{\beta_k} } {p_1^{\gamma_1} \cdots p_k^{\gamma_k}}\\
+                      &= p_1^{\beta_1 - \gamma_1} \cdots p_k^{\beta_1 - \gamma_1}
+                    \end{split}
+                    \end{equation*}.
+
+
+                    Ya sabemos que  $\left( \frac{\abs {a} } { (\abs{a},\abs{b})  }, \frac{\abs{b}}{(\abs{a},\abs{b})} \right) = \prod_{i=1}^{k} p_i ^{\phi_i} $ donde $\phi_i =$ mín$\{\alpha_i-\gamma_i, \beta_i-\gamma_i\}$. \\
+                    Veremos que, por la definición de $\gamma_i$ debe pasar que $\alpha_i-\gamma_i = 0$ ó $\beta_i-\gamma_i = 0$. \\
+                    Hay 3 casos: \\
+                    \begin{enumerate}
+                    \item $\alpha_i = \beta_i$: \\
+                      En este caso,  $\gamma_i$ = mín$\{\alpha_i, \beta_i\} = \alpha_i = \beta_i$. Por lo tanto, $\alpha_i-\gamma_i = 0$ y $\beta_i-\gamma_i = 0$.
+                      Con esto, ya que  $\phi_i =$ mín$\{\alpha_i-\gamma_i, \beta_i-\gamma_i\} =$  mín $\{0, 0\} = 0$.
+                    \item $\alpha_i < \beta_i$: \\
+                    En este caso, $\gamma_i$= mín$\{\alpha_i, \beta_i\} = \alpha_i$. Por lo tanto, $\alpha_i-\gamma_i = 0$, además $\beta_i-\gamma_i > 0$.
+                    Con esto, ya que  $\phi_i =$ mín$\{\alpha_i-\gamma_i, \beta_i-\gamma_i\} =$  mín $\{0, \beta_i-\gamma_i \} = 0$.
+                     \item $\alpha_i > \beta_i$: \\
+                    En este caso, $\gamma_i$ = mín$\{\alpha_i, \beta_i\} = \beta_i$. Por lo tanto, $\beta_i-\gamma_i = 0$, además $\alpha_i-\gamma_i > 0$.
+                    Con esto, ya que  $\phi_i =$ mín$\{\alpha_i-\gamma_i, \beta_i-\gamma_i\} =$  mín $\{ \alpha_i-\gamma_i, 0 \} = 0$.
+                    \end{enumerate}
+
+                    Ya que demostramos que $\phi_i =0$ para toda $1 \leq i \leq k$. Entonces: $\left( \frac{\abs {a} } { (\abs{a},\abs{b})  }, \frac{\abs{b}}{(\abs{a},\abs{b})} \right) = \prod_{i=1}^{k} p_i ^{\phi_i} =  \prod_{i=1}^{k} p_i ^{0} = p_1^{0} \cdots p_k^{0}  = 1 \cdots 1 =1$.
+
+                   Así, queda demostrado que  $\left( \frac{a}{(a,b)}, \frac{b}{(a,b)} \right ) = 1$.
+                    
+
+                  
 		\item ({\bf 0.5 puntos}) Sean $a, b, c \in \mathbb{Z}-\{0\}$. Demuestre que 
 		$\left[ca, cb\right] = \lvert c \rvert \left[a,b\right]$.
 		

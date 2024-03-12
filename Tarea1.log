@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2024.3.10)  11 MAR 2024 16:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2024.3.10)  11 MAR 2024 18:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1188,7 +1188,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.159 		\item ({\bf
+l.160 		\item ({\bf
                     0.25 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1212,7 +1212,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 		\item ({\bf
+l.163 		\item ({\bf
                     0.25 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1236,7 +1236,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 		\item ({\bf
+l.167 		\item ({\bf
                     0.25 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1261,7 +1261,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 		\item ({\bf
+l.180 		\item ({\bf
                     0.25 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1285,7 +1285,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182 		\item ({\bf
+l.183 		\item ({\bf
                     0.25 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1309,7 +1309,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.186 		\item ({\bf
+l.187 		\item ({\bf
                     0.25 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1333,7 +1333,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.194 		\item ({\bf
+l.195 		\item ({\bf
                     0.25 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1357,7 +1357,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.197 		\item ({\bf
+l.198 		\item ({\bf
                     0.25 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1381,7 +1381,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 		\item ({\bf
+l.202 		\item ({\bf
                     0.25 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1405,7 +1405,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.207 		\item ({\bf
+l.208 		\item ({\bf
                     0.5 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1429,7 +1429,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.210 		\item ({\bf
+l.211 		\item ({\bf
                     0.5 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1453,7 +1453,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.214 		\item ({\bf
+l.215 		\item ({\bf
                     0.5 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1471,7 +1471,7 @@ To make it work for now, you can use the already also deprecated class option
 `enabledeprecatedfontcommands'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--219
+Underfull \hbox (badness 10000) in paragraph at lines 215--220
 
  []
 
@@ -1483,7 +1483,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.254 		\item ({\bf
+l.255 		\item ({\bf
                     1 punto}) Encuentre los siguiente dos elementos de cada
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1507,7 +1507,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.261 		\item ({\bf
+l.262 		\item ({\bf
                     1 punto}) Encuentre los siguientes dos elementos de
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1531,7 +1531,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.280 		      \item ({\bf
+l.281 		      \item ({\bf
                           0.5 puntos}) Supongamos que $p$ y $q$ son n\'umeros
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1556,7 +1556,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.301 		\item ({\bf
+l.302 		\item ({\bf
                     0.5 puntos}) Si $n$ es un n\'umero compuesto, entonces
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1580,7 +1580,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.306 		\item ({\bf
+l.307 		\item ({\bf
                     0.5 puntos}) Haciendo uso del algoritmo de Euclides encu...
 
 You should note that since 1994 LaTeX2e provides a new font selection scheme
@@ -1605,7 +1605,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.318 	   	 \item ({\bf
+l.319 	   	 \item ({\bf
                         0.5 puntos})  Demuestra que dados $a, b \in \mathbb{...
 
 You should note that since 1994 LaTeX2e provides a new font selection scheme
@@ -1624,13 +1624,38 @@ To make it work for now, you can use the already also deprecated class option
 `enabledeprecatedfontcommands'.
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 335--337
+
+ []
+
+
+Overfull \hbox (3.51282pt too wide) in paragraph at lines 338--340
+[]\T1/cmr/m/n/12 Existe un teo-re-ma que nos ga-ran-ti-za que $\OT1/cmr/m/n/12 
+(\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 a\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 ; \OMS/
+cmsy/m/n/12 j\OML/cmm/m/it/12 b\OMS/cmsy/m/n/12 j\OT1/cmr/m/n/12 ) = [][] \OML/
+cmm/m/it/12 p[]$ \T1/cmr/m/n/12 don-de $\OML/cmm/m/it/12 ^^M[] \OT1/cmr/m/n/12 
+=$ \T1/cmr/m/n/12 mín$\OMS/cmsy/m/n/12 f\OML/cmm/m/it/12 []; ^^L[]\OMS/cmsy/m/
+n/12 g$\T1/cmr/m/n/12 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--358
+
+ []
+
+
 ! Class scrartcl Error: undefined old font command `\bf'.
 
 See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.321 		\item ({\bf
+l.375 		\item ({\bf
                     0.5 puntos}) Sean $a, b, c \in \mathbb{Z}-\{0\}$. Demues...
 
 You should note that since 1994 LaTeX2e provides a new font selection scheme
@@ -1655,7 +1680,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.324 		\item ({\bf
+l.378 		\item ({\bf
                     0.5 puntos}) Sean $a, b \in \mathbb{Z} - \{0\}$ tales que
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1672,40 +1697,42 @@ you should replace it, e.g., by `\normalfont \bfseries '.
 To make it work for now, you can use the already also deprecated class option
 `enabledeprecatedfontcommands'.
 
-[5] (./Tarea1.aux
+[6] (./Tarea1.aux
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
 ) ) 
 Here is how much of TeX's memory you used:
- 19087 strings out of 476182
- 351906 string characters out of 5796581
- 1864793 words of memory out of 6000000
- 39062 multiletter control sequences out of 15000+600000
+ 19093 strings out of 476182
+ 351995 string characters out of 5796581
+ 1867793 words of memory out of 6000000
+ 39068 multiletter control sequences out of 15000+600000
  531413 words of font info for 88 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 108i,15n,106p,10644b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti
-1200.600pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/public/c
-m/cmsy8.600pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/publi
-c/cm/cmmi8.600pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/pu
-blic/cm/cmex10.720pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfou
-r/public/amsfonts/symbols/msbm10.480pk> </usr/share/texlive/texmf-dist/fonts/pk
-/ljfour/public/cm/dpi600/cmr8.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfou
-r/public/cm/dpi600/cmr12.pk> </home/julietanilem/.texlive2022/texmf-var/fonts/p
-k/ljfour/public/amsfonts/symbols/msbm10.720pk> </home/julietanilem/.texlive2022
-/texmf-var/fonts/pk/ljfour/public/cm/cmsy10.720pk> </home/julietanilem/.texlive
-2022/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </home/julietanilem/.tex
-live2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/julietani
-lem/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/j
-ulietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> 
-</home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/public/amsfonts/symb
-ols/msbm10.1493pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecrm2488.600pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/
-ljfour/jknappen/ec/eccc1200.600pk>
-Output written on Tarea1.pdf (5 pages, 76994 bytes).
+ 108i,16n,106p,10644b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/public/cm/cmmi6.
+600pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr6.pk>
+ </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti120
+0.600pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/public/cm/c
+msy8.600pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/public/c
+m/cmmi8.600pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/publi
+c/cm/cmex10.720pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/p
+ublic/amsfonts/symbols/msbm10.480pk> </usr/share/texlive/texmf-dist/fonts/pk/lj
+four/public/cm/dpi600/cmr8.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/p
+ublic/cm/dpi600/cmr12.pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/l
+jfour/public/amsfonts/symbols/msbm10.720pk> </home/julietanilem/.texlive2022/te
+xmf-var/fonts/pk/ljfour/public/cm/cmsy10.720pk> </home/julietanilem/.texlive202
+2/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </home/julietanilem/.texliv
+e2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/julietanilem
+/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/juli
+etanilem/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </h
+ome/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols
+/msbm10.1493pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecrm2488.600pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljf
+our/jknappen/ec/eccc1200.600pk>
+Output written on Tarea1.pdf (6 pages, 87890 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 76 compressed objects within 1 object stream
+ 321 PDF objects out of 1000 (max. 8388607)
+ 86 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
