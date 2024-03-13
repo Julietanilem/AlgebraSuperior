@@ -1,9 +1,23 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2024.3.10)  11 MAR 2024 18:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/CVE-2023-32700 patched) (preloaded format=pdflatex 2024.3.10)  12 MAR 2024 20:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **\nonstopmode\input Tarea1.tex
-(./Tarea1.tex (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
+(./Tarea1.tex
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 e
+     \documentclass[fontsize=12pt]{scrartcl}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no e in font nullfont!
+(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
 Document Class: scrartcl 2022/10/12 v3.38 KOMA-Script document class (article)
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
 Package: scrkbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-dependent b
@@ -122,7 +136,14 @@ Package tocbasic Info: omitting babel extension for `lot'
 Class scrartcl Info: Redefining `\numberline' on input line 6397.
 \bibindent=\dimen140
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
+[]
+ []
+
+[1
+
+pdfTeX warning: pdflatex (file pdftex.map): cannot open font map file
+] (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/marvosym/marvosym.sty
@@ -465,6 +486,18 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 \pst@toks=\toks40
 --- We are running latex or xelatex ---
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con)
+
+LaTeX Warning: First page is already shipped out, ignoring
+               \AtBeginDvi on input line 498.
+
+
+LaTeX Warning: First page is already shipped out, ignoring
+               \AtBeginDvi on input line 499.
+
+
+LaTeX Warning: First page is already shipped out, ignoring
+               \AtBeginDvi on input line 500.
+
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks-color.tex)
 \psunit=\dimen177
 \psxunit=\dimen178
@@ -480,7 +513,12 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 )
 \pst@customdefs=\toks41
 
-(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks-dots.tex)
+(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks-dots.tex
+
+LaTeX Warning: First page is already shipped out, ignoring
+               \AtBeginDvi on input line 149.
+
+)
 \pslinearc=\dimen185
 \pst@symbolStep=\dimen186
 \pst@symbolWidth=\dimen187
@@ -492,8 +530,7 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 \sh@wgridYunit=\dimen192
 \pst@shift=\dimen193
 \ps@imagectr=\count306
-
-(/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con))
+ (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pstricks.con))
 File: pstricks.tex 2022/11/28 v3.18 `PSTricks' (tvz,hv)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pstricks/pst-fp.tex
@@ -504,16 +541,24 @@ File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
 Package: pst-grad 2004/07/15 package wrapper for pst-grad.tex (hv)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pst-grad/pst-grad.tex
-`pst-grad' v1.06, 2006/11/27 (tvz,dg,hv))
-File: pst-grad.tex 2006/11/27 1.06 `pst-grad' (tvz)
+`pst-grad' v1.06, 2006/11/27 (tvz,dg,hv)
+
+LaTeX Warning: First page is already shipped out, ignoring
+               \AtBeginDvi on input line 53.
+
 )
-(/usr/share/texlive/texmf-dist/tex/latex/pst-coil/pst-coil.sty
+File: pst-grad.tex 2006/11/27 1.06 `pst-grad' (tvz)
+) (/usr/share/texlive/texmf-dist/tex/latex/pst-coil/pst-coil.sty
 Package: pst-coil 2010/02/01 package wrapper for pst-coil.tex (hv)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pst-coil/pst-coil.tex
  v1.06, 2006/11/27
 (/usr/share/texlive/texmf-dist/tex/generic/pst-node/pst-node.tex
  v1.43, 2022/01/31
+
+LaTeX Warning: First page is already shipped out, ignoring
+               \AtBeginDvi on input line 28.
+
 \psrow=\count307
 \pscol=\count308
 \psmatrixcnt=\count309
@@ -522,10 +567,14 @@ Package: pst-coil 2010/02/01 package wrapper for pst-coil.tex (hv)
 \pst@args=\count310
 \num@pts=\count311
 \pst@argcnt=\count312
-))
-File: pst-coil.tex 2015/05/13 v1.07 `PST-coil' (tvz,hv)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
+
+LaTeX Warning: First page is already shipped out, ignoring
+               \AtBeginDvi on input line 31.
+
+)
+File: pst-coil.tex 2015/05/13 v1.07 `PST-coil' (tvz,hv)
+) (/usr/share/texlive/texmf-dist/tex/latex/mdframed/mdframed.sty
 Package: mdframed 2013/07/01 1.9b: mdframed
 
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
@@ -785,25 +834,25 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Trying to load font information for T1+cmss on input line 7
-2.
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6
+8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 72.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 72.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 72
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 68
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
@@ -816,7 +865,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.92 		\item ({\bf
+l.88 		\item ({\bf
                    0.25 puntos}) 		
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -840,7 +889,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 		\item ({\bf
+l.95 		\item ({\bf
                    0.25 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -858,25 +907,12 @@ To make it work for now, you can use the already also deprecated class option
 `enabledeprecatedfontcommands'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--105
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
 
  []
 
-[1
-Non-PDF special ignored!
-<special> header=pstricks.pro
-Non-PDF special ignored!
-<special> header=pst-algparser.pro
-Non-PDF special ignored!
-<special> header=pst-tools.pro
-Non-PDF special ignored!
-<special> header=pst-dots.pro
-Non-PDF special ignored!
-<special> header=pst-grad.pro
-Non-PDF special ignored!
-<special> header=pst-node.pro
-Non-PDF special ignored!
-<special> header=pst-coil.pro
+[2
+
 
 Non-PDF special ignored!
 <special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
@@ -889,9 +925,6 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 <special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
 
-
-
-pdfTeX warning: pdflatex (file pdftex.map): cannot open font map file
 ]
 
 ! Class scrartcl Error: undefined old font command `\bf'.
@@ -1182,298 +1215,81 @@ To make it work for now, you can use the already also deprecated class option
 `enabledeprecatedfontcommands'.
 
 
-! Class scrartcl Error: undefined old font command `\bf'.
-
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 		\item ({\bf
-                    0.25 puntos})
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
-
-
-! Class scrartcl Error: undefined old font command `\bf'.
-
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.163 		\item ({\bf
-                    0.25 puntos})
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
-
-
-! Class scrartcl Error: undefined old font command `\bf'.
-
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 		\item ({\bf
-                    0.25 puntos})
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
-
-[2]
-
-! Class scrartcl Error: undefined old font command `\bf'.
-
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.180 		\item ({\bf
-                    0.25 puntos})
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
-
-
-! Class scrartcl Error: undefined old font command `\bf'.
-
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.183 		\item ({\bf
-                    0.25 puntos})
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
-
-
-! Class scrartcl Error: undefined old font command `\bf'.
-
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.187 		\item ({\bf
-                    0.25 puntos})
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
-
-
-! Class scrartcl Error: undefined old font command `\bf'.
-
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.195 		\item ({\bf
-                    0.25 puntos})
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
-
-
-! Class scrartcl Error: undefined old font command `\bf'.
-
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.198 		\item ({\bf
-                    0.25 puntos})
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
-
-
-! Class scrartcl Error: undefined old font command `\bf'.
-
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.202 		\item ({\bf
-                    0.25 puntos})
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
-
-
-! Class scrartcl Error: undefined old font command `\bf'.
-
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.208 		\item ({\bf
-                    0.5 puntos})
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
-
-
-! Class scrartcl Error: undefined old font command `\bf'.
-
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.211 		\item ({\bf
-                    0.5 puntos})
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
-
-
-! Class scrartcl Error: undefined old font command `\bf'.
-
-See the scrartcl class documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.215 		\item ({\bf
-                    0.5 puntos})
-You should note that since 1994 LaTeX2e provides a new font selection scheme
-called NFSS2 with several new, combinable font commands. KOMA-Script
-classes had defined the old font commands like `\bf' only for compatibility
-with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
-commands are deprecated and undocumented at least since 2003. Since 2013
-KOMA-Script classes warned about soon removement of these deprecated commands.
-Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
-more. If loading a package results in this error message, you should contact
-the author of that package and ask him to replace the deprecated font command
-`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
-or replace the package. If you have used the old font command `\bf' yourself,
-you should replace it, e.g., by `\normalfont \bfseries '.
-To make it work for now, you can use the already also deprecated class option
-`enabledeprecatedfontcommands'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--220
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
+
+
+! Class scrartcl Error: undefined old font command `\bf'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.161 		\item ({\bf
+                    0.25 puntos})
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\bf' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\bf' yourself,
+you should replace it, e.g., by `\normalfont \bfseries '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+! Class scrartcl Error: undefined old font command `\bf'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 		\item ({\bf
+                    0.25 puntos})
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\bf' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\bf' yourself,
+you should replace it, e.g., by `\normalfont \bfseries '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+! Class scrartcl Error: undefined old font command `\bf'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.168 		\item ({\bf
+                    0.25 puntos})
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\bf' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\bf' yourself,
+you should replace it, e.g., by `\normalfont \bfseries '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
 
 [3]
 
@@ -1483,8 +1299,8 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 		\item ({\bf
-                    1 punto}) Encuentre los siguiente dos elementos de cada
+l.185 		\item ({\bf
+                    0.25 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
 classes had defined the old font commands like `\bf' only for compatibility
@@ -1507,8 +1323,8 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262 		\item ({\bf
-                    1 punto}) Encuentre los siguientes dos elementos de
+l.188 		\item ({\bf
+                    0.25 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
 classes had defined the old font commands like `\bf' only for compatibility
@@ -1531,8 +1347,8 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.281 		      \item ({\bf
-                          0.5 puntos}) Supongamos que $p$ y $q$ son n\'umeros
+l.192 		\item ({\bf
+                    0.25 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
 classes had defined the old font commands like `\bf' only for compatibility
@@ -1556,8 +1372,8 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.302 		\item ({\bf
-                    0.5 puntos}) Si $n$ es un n\'umero compuesto, entonces
+l.209 		\item ({\bf
+                    0.25 puntos})
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
 classes had defined the old font commands like `\bf' only for compatibility
@@ -1580,7 +1396,235 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.307 		\item ({\bf
+l.212 		\item ({\bf
+                    0.25 puntos})
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\bf' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\bf' yourself,
+you should replace it, e.g., by `\normalfont \bfseries '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+! Class scrartcl Error: undefined old font command `\bf'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.216 		\item ({\bf
+                    0.25 puntos})
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\bf' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\bf' yourself,
+you should replace it, e.g., by `\normalfont \bfseries '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+! Class scrartcl Error: undefined old font command `\bf'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 		\item ({\bf
+                    0.5 puntos})
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\bf' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\bf' yourself,
+you should replace it, e.g., by `\normalfont \bfseries '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+! Class scrartcl Error: undefined old font command `\bf'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.225 		\item ({\bf
+                    0.5 puntos})
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\bf' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\bf' yourself,
+you should replace it, e.g., by `\normalfont \bfseries '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+! Class scrartcl Error: undefined old font command `\bf'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 		\item ({\bf
+                    0.5 puntos})
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\bf' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\bf' yourself,
+you should replace it, e.g., by `\normalfont \bfseries '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--234
+
+ []
+
+[5]
+
+! Class scrartcl Error: undefined old font command `\bf'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.272 		\item ({\bf
+                    1 punto}) Encuentre los siguiente dos elementos de cada
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\bf' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\bf' yourself,
+you should replace it, e.g., by `\normalfont \bfseries '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+! Class scrartcl Error: undefined old font command `\bf'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279 		\item ({\bf
+                    1 punto}) Encuentre los siguientes dos elementos de
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\bf' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\bf' yourself,
+you should replace it, e.g., by `\normalfont \bfseries '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+! Class scrartcl Error: undefined old font command `\bf'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 		      \item ({\bf
+                          0.5 puntos}) Supongamos que $p$ y $q$ son n\'umeros
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\bf' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\bf' yourself,
+you should replace it, e.g., by `\normalfont \bfseries '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--316
+
+ []
+
+
+! Class scrartcl Error: undefined old font command `\bf'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.322 		\item ({\bf
+                    0.5 puntos}) Si $n$ es un n\'umero compuesto, entonces
+You should note that since 1994 LaTeX2e provides a new font selection scheme
+called NFSS2 with several new, combinable font commands. KOMA-Script
+classes had defined the old font commands like `\bf' only for compatibility
+with old LaTeX 2.09 document styles of Script 2.0. Nevertheless, these
+commands are deprecated and undocumented at least since 2003. Since 2013
+KOMA-Script classes warned about soon removement of these deprecated commands.
+Now, after two decades of LaTeX2e and NFSS2, these commands will not work any
+more. If loading a package results in this error message, you should contact
+the author of that package and ask him to replace the deprecated font command
+`\bf', e.g., by `\normalfont \bfseries `. Otherwise you should reconfigure
+or replace the package. If you have used the old font command `\bf' yourself,
+you should replace it, e.g., by `\normalfont \bfseries '.
+To make it work for now, you can use the already also deprecated class option
+`enabledeprecatedfontcommands'.
+
+[6]
+
+! Class scrartcl Error: undefined old font command `\bf'.
+
+See the scrartcl class documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.327 		\item ({\bf
                     0.5 puntos}) Haciendo uso del algoritmo de Euclides encu...
 
 You should note that since 1994 LaTeX2e provides a new font selection scheme
@@ -1605,7 +1649,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.319 	   	 \item ({\bf
+l.339 	   	 \item ({\bf
                         0.5 puntos})  Demuestra que dados $a, b \in \mathbb{...
 
 You should note that since 1994 LaTeX2e provides a new font selection scheme
@@ -1624,17 +1668,17 @@ To make it work for now, you can use the already also deprecated class option
 `enabledeprecatedfontcommands'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 335--337
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
  []
 
 
-Overfull \hbox (3.51282pt too wide) in paragraph at lines 338--340
+Underfull \hbox (badness 10000) in paragraph at lines 355--357
+
+ []
+
+
+Overfull \hbox (3.51282pt too wide) in paragraph at lines 358--360
 []\T1/cmr/m/n/12 Existe un teo-re-ma que nos ga-ran-ti-za que $\OT1/cmr/m/n/12 
 (\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 a\OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 ; \OMS/
 cmsy/m/n/12 j\OML/cmm/m/it/12 b\OMS/cmsy/m/n/12 j\OT1/cmr/m/n/12 ) = [][] \OML/
@@ -1643,8 +1687,8 @@ cmm/m/it/12 p[]$ \T1/cmr/m/n/12 don-de $\OML/cmm/m/it/12 ^^M[] \OT1/cmr/m/n/12
 n/12 g$\T1/cmr/m/n/12 . 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 354--358
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 374--378
 
  []
 
@@ -1655,7 +1699,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.375 		\item ({\bf
+l.398 		\item ({\bf
                     0.5 puntos}) Sean $a, b, c \in \mathbb{Z}-\{0\}$. Demues...
 
 You should note that since 1994 LaTeX2e provides a new font selection scheme
@@ -1680,7 +1724,7 @@ See the scrartcl class documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.378 		\item ({\bf
+l.401 		\item ({\bf
                     0.5 puntos}) Sean $a, b \in \mathbb{Z} - \{0\}$ tales que
 You should note that since 1994 LaTeX2e provides a new font selection scheme
 called NFSS2 with several new, combinable font commands. KOMA-Script
@@ -1697,18 +1741,18 @@ you should replace it, e.g., by `\normalfont \bfseries '.
 To make it work for now, you can use the already also deprecated class option
 `enabledeprecatedfontcommands'.
 
-[6] (./Tarea1.aux
+[8] (./Tarea1.aux
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
 ) ) 
 Here is how much of TeX's memory you used:
- 19093 strings out of 476182
- 351995 string characters out of 5796581
- 1867793 words of memory out of 6000000
- 39068 multiletter control sequences out of 15000+600000
+ 19091 strings out of 476182
+ 351923 string characters out of 5796581
+ 1866793 words of memory out of 6000000
+ 39066 multiletter control sequences out of 15000+600000
  531413 words of font info for 88 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 108i,16n,106p,10644b,365s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,16n,106p,10644b,419s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/public/cm/cmmi6.
 600pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr6.pk>
  </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti120
@@ -1716,23 +1760,24 @@ Here is how much of TeX's memory you used:
 msy8.600pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/public/c
 m/cmmi8.600pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/publi
 c/cm/cmex10.720pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/p
-ublic/amsfonts/symbols/msbm10.480pk> </usr/share/texlive/texmf-dist/fonts/pk/lj
-four/public/cm/dpi600/cmr8.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/p
-ublic/cm/dpi600/cmr12.pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/l
-jfour/public/amsfonts/symbols/msbm10.720pk> </home/julietanilem/.texlive2022/te
-xmf-var/fonts/pk/ljfour/public/cm/cmsy10.720pk> </home/julietanilem/.texlive202
-2/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </home/julietanilem/.texliv
-e2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </home/julietanilem
-/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/juli
-etanilem/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk> </h
-ome/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols
-/msbm10.1493pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecrm2488.600pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljf
-our/jknappen/ec/eccc1200.600pk>
-Output written on Tarea1.pdf (6 pages, 87890 bytes).
+ublic/amsfonts/symbols/msbm10.480pk> </home/julietanilem/.texlive2022/texmf-var
+/fonts/pk/ljfour/public/amsfonts/symbols/msam10.720pk> </usr/share/texlive/texm
+f-dist/fonts/pk/ljfour/public/cm/dpi600/cmr8.pk> </home/julietanilem/.texlive20
+22/texmf-var/fonts/pk/ljfour/public/amsfonts/symbols/msbm10.720pk> </home/julie
+tanilem/.texlive2022/texmf-var/fonts/pk/ljfour/public/cm/cmsy10.720pk> </home/j
+ulietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/public/cm/cmmi12.600pk> </ho
+me/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600
+pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
+1200.600pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecrm1728.600pk> </home/julietanilem/.texlive2022/texmf-var/fonts/pk/ljfour/
+public/amsfonts/symbols/msbm10.1493pk> </home/julietanilem/.texlive2022/texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ecrm2488.600pk> </home/julietanilem/.texlive2022
+/texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1200.600pk> </usr/share/texlive/texm
+f-dist/fonts/pk/ljfour/public/cm/dpi600/cmr12.pk>
+Output written on Tarea1.pdf (8 pages, 89949 bytes).
 PDF statistics:
- 321 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 335 PDF objects out of 1000 (max. 8388607)
+ 96 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
